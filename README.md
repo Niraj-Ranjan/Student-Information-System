@@ -10,4 +10,16 @@ This is Android application based on Login and register activity and after secce
   <img src="https://github.com/Niraj-Ranjan/Android-Login-Example/blob/master/Screenshot/Capture.PNG" alt="Register XML" width="200">
   <br>
   Register Screen
+  
+  <br>
+  <img src="https://github.com/Niraj-Ranjan/Student-Information-System/blob/master/Screenshot/dataenter.PNG" alt="Register XML" width="200">
+  <br>
+  data Enter screen
+  
+  <br>
+  <img src="https://github.com/Niraj-Ranjan/Student-Information-System/blob/master/Screenshot/4.PNG" alt="Register XML" width="200">
+  <br>
+  Confirmation screen
+  
+  
 </h1>
