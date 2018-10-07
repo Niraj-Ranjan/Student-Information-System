@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="niraj.com.studentinformationsystem.MainActivity"
+    >
+
+
+    <TextView android:text = "Welcome To Student Information System"
+        android:layout_width="wrap_content"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/textview"
+        android:textSize = "20dp"
+        android:textColor = "#3575D3"
+        android:textAlignment="center"
+        android:layout_centerHorizontal = "true" />
+
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "Admin Login"
+        android:id = "@+id/textView"
+        android:layout_below = "@+id/textview"
+        android:layout_centerHorizontal = "true"
+        android:textColor = "#FF5733"
+        android:textSize = "30dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:src="@drawable/admin2"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:background="#D81B60"
+        android:drawableLeft="@drawable/ic_user_24dp"
+        android:drawablePadding="10dp"
+        android:focusable="true"
+        android:hint="Admin Id"
+        android:padding="10dp"
+
+        android:paddingLeft="0dp"
+        android:textColor="#FAFAFA"
+        android:textColorHint="#FAFAFA"
+        android:tint="#FAFAFA"
+        android:layout_below="@+id/imageView"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_alignEnd="@+id/editText2" />
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="12dp"
+        android:background="#D81B60"
+        android:drawableLeft="@drawable/ic_pass_24dp"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:textColor="#FAFAFA"
+        android:textColorHint="#FAFAFA"
+        android:layout_below="@+id/editText"
+        android:layout_alignStart="@+id/textview"
+        android:layout_alignEnd="@+id/textview" />
+
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="16dp"
+        android:background="#4FC3F7"
+        android:onClick="onClick"
+        android:text="login" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="11dp"
+        android:weightSum="1">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account ? "
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="Sign Up"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle"
+
+        android:padding="10dp"
+        android:src="@drawable/facebook"
+        android:tint="#FFFFFF"
+        android:layout_alignTop="@+id/imageButton2"
+        android:layout_alignStart="@+id/textView" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle"
+
+        android:padding="10dp"
+        android:src="@drawable/twitter"
+        android:tint="#FFFFFF"
+
+        android:id="@+id/imageButton2"
+        android:layout_alignTop="@+id/imageButton3"
+        android:layout_toStartOf="@+id/imageButton3"
+        android:layout_marginEnd="13dp" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle"
+
+        android:padding="10dp"
+        android:src="@drawable/googlee"
+        android:tint="#FFFFFF"
+        android:layout_marginBottom="9dp"
+        android:id="@+id/imageButton3"
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignEnd="@+id/imageView" />
+
+
+</RelativeLayout>
