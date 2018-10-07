@@ -11,7 +11,18 @@ This is Android application based on Login and register activity and after secce
 <body>
 
 
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
 
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 <div class="row">
   <div class="column">
     <img src="https://github.com/Niraj-Ranjan/Android-Login-Example/blob/master/Screenshot/Captusre.PNG" alt="Snow" style="width:100%">
