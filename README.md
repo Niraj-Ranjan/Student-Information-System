@@ -1,54 +1,17 @@
 # Student-Information-System
 This is Android application based on Login and register activity and after seccessfull login admin be able to post students details
 
-
-
-<!DOCTYPE html>
-<html>
-<head>
-
-</head>
-<body>
-
-
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-<div class="row">
-  <div class="column">
-    <img src="https://github.com/Niraj-Ranjan/Android-Login-Example/blob/master/Screenshot/Captusre.PNG" alt="Snow" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="https://github.com/Niraj-Ranjan/Android-Login-Example/blob/master/Screenshot/Capture.PNG" alt="Forest" style="width:100%">
-  </div>
-  
-</div>
-
-
-<div class="row">
-  <div class="column">
-    <img src="https://github.com/Niraj-Ranjan/Student-Information-System/blob/master/Screenshot/dataenter.PNG" alt="Snow" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="https://github.com/Niraj-Ranjan/Student-Information-System/blob/master/Screenshot/4.PNG" alt="Forest" style="width:100%">
-  </div>
-  
-</div>
-
-
-
-</body>
-</html>
-
+<p float="left">
+  <img src="https://github.com/Niraj-Ranjan/Android-Login-Example/blob/master/Screenshot/Captusre.PNG" syle="width="100%" />
 
   
-</h1>
+  <img src="https://github.com/Niraj-Ranjan/Android-Login-Example/blob/master/Screenshot/Capture.PNG" style="width="100%" /> 
+  
+</p>
+<br>
+
+<p float="left"> 
+ <img src="img src="https://github.com/Niraj-Ranjan/Student-Information-System/blob/master/Screenshot/dataenter.PNG"style="width:100%"/>
+ <img src="https://github.com/Niraj-Ranjan/Student-Information-System/blob/master/Screenshot/4.PNG" style="width:100%"/>
+</p>
+
